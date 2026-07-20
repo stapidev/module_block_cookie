@@ -1,0 +1,21 @@
+{
+  "title": "Cookie",
+  "info": "Отображает окно согласия на использование файлов cookie",
+  "author": "stapi",
+  "page": "all",
+  "version": "1.0",
+  "required": {
+    "core": "0.2",
+    "php": "7.4"
+  },
+  "setting": {
+    "status": 1,
+    "type": 1,
+    "translation": 1,
+    "interface": 0,
+    "interface_always": 1,
+    "interface_always_adjacent": "afternavbar",
+    "js_always": 1,
+    "css_always": 1
+  }
+}

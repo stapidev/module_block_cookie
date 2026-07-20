@@ -1,0 +1,77 @@
+.card#cookie-consent-banner {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 465px;
+    padding: 20px;
+    z-index: 99999;
+    gap: 12px;
+    transition: var(--transition-ease-2);
+}
+
+.card#cookie-consent-banner.cookie-consent-hidden {
+    opacity: 0;
+    transform: translateY(200px);
+    visibility: hidden;
+    transition: var(--transition-ease-2), visibility 0s linear var(--transition-duration);
+}
+
+.cookie-consent-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cookie-consent-icon {
+    display: flex;
+}
+
+.cookie-consent-title {
+    font-size: var(--font-size-default);
+    font-weight: var(--font-weight-7);
+}
+
+.cookie-consent-body {
+    font-size: var(--font-size-m);
+    line-height: 1.5;
+    color: var(--text-secondary);
+}
+
+.cookie-consent-link:hover {
+    text-decoration: underline;
+}
+
+.cookie-consent-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 4px;
+}
+
+.cookie-consent-buttons button {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .card#cookie-consent-banner {
+        bottom: 16px;
+        right: 16px;
+        left: 16px;
+        width: auto;
+        max-width: none;
+        padding: 16px;
+        gap: 10px;
+    }
+
+    .cookie-consent-title {
+        font-size: var(--font-size-m);
+    }
+
+    .cookie-consent-body {
+        font-size: var(--font-size-s);
+    }
+
+    .cookie-consent-buttons {
+        gap: 8px;
+    }
+}

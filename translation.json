@@ -1,0 +1,22 @@
+{
+    "_CookieTitle": {
+        "RU": "Файлы Cookie",
+        "UA": "Файли Cookie",
+        "EN": "Cookies"
+    },
+    "_CookieBody": {
+        "RU": "Наш сайт использует файлы cookie для корректной работы и улучшения пользовательского опыта. Оставаясь здесь, вы соглашаетесь с нашей <a href=\"/rules/\" class=\"cookie-consent-link\">Политикой обработки персональных данных</a>.",
+        "UA": "Наш сайт використовує файли cookie для коректної роботи та покращення користувацького досвіду. Залишаючись тут, ви погоджуєтеся з нашою <a href=\"/rules/\" class=\"cookie-consent-link\">Політикою обробки персональних даних</a>.",
+        "EN": "Our website uses cookies to ensure its correct operation and improve your user experience. By staying here, you agree to our <a href=\"/rules/\" class=\"cookie-consent-link\">Personal Data Processing Policy</a>."
+    },
+    "_CookieCancel": {
+        "RU": "Отмена",
+        "UA": "Скасувати",
+        "EN": "Cancel"
+    },
+    "_CookieAccept": {
+        "RU": "Хорошо",
+        "UA": "Добре",
+        "EN": "Accept"
+    }
+}
